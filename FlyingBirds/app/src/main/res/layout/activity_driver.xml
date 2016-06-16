@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".DriverActivity"
+    android:id="@+id/mainLayout">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/heaven_day_c"
+        android:visibility="visible"
+        android:focusableInTouchMode="false"
+        android:contentDescription="background"
+        android:adjustViewBounds="true"
+        android:scaleType="matrix" />
+
+    <Button
+        android:layout_width="@dimen/bird_player_width"
+        android:layout_height="@dimen/bird_player_height"
+        android:id="@+id/btn"
+        android:background="@drawable/bird_player"
+        android:layout_alignTop="@+id/txtScore"
+        android:layout_toLeftOf="@+id/txtGameOver"
+        android:layout_toStartOf="@+id/txtGameOver" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewCountDown"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:src="@drawable/three"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="LEVEL: 0"
+        android:id="@+id/txtScore"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="25dp"
+        android:textColor="#ffed1d"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="LIVES: 0"
+        android:id="@+id/txtLives"
+        android:textSize="25dp"
+        android:textColor="#ffed1d"
+        android:layout_below="@+id/txtScore"
+        android:layout_alignRight="@+id/txtScore"
+        android:layout_alignEnd="@+id/txtScore"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Game Over"
+        android:id="@+id/txtGameOver2"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/imageViewCountDown"
+        android:layout_alignLeft="@+id/txtGameOver"
+        android:layout_alignStart="@+id/txtGameOver"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="-2dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Game Over"
+    android:id="@+id/txtGameOver"
+        android:textSize="60dp"
+    android:textStyle="bold"
+    android:textColor="#F23333"
+        android:layout_alignBottom="@+id/imageViewCountDown"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Level 1 achieved!"
+        android:id="@+id/txtNextLevel"
+        android:textSize="25dp"
+        android:textColor="#ffed1d"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_below="@+id/txtScore"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnGameMenu"
+        android:background="@drawable/ic_action_back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">"Shake Lamp"</string>
+
+    <string name="hello_world">"Ciao mondo!"</string>
+    <string name="action_settings">"Impostazioni"</string>
+    <string name="btnLamp">"Agitare o premere"</string>
+
+    <!-- ShareApp strings -->
+    <string name="share_app_body">"! ¡Hi \n \n Prova questa app, es veramente utile e geniale: \n \n https://play.google.com/store/apps/details?id=com.handysparksoft.shakelamp \n \nCheers!"</string>
+    <string name="share_app_subject">"Prova questa app, è fantastico!"</string>
+    <string name="share_app_information">"Informazioni"</string>
+    <string name="share_app_message1">"Agitare Lamp V"</string>
+    <string name="share_app_message2">"\n Year 2015 - David A \nemail: handysparksoft@gmail.com"</string>
+    <string name="shake_lamp_msg_error">"Errore"</string>
+    <string name="shake_lamp_msg_not_flash_support">"Spiacenti, il dispositivo non supporta flash!"</string>
+    <string name="share_app_share">"Condividi Agitare Lampada con i tuoi amici"</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">"Impostazioni"</string>
+    <string name="pref_service_activated">"Servizio attivato"</string>
+    <string name="pref_service_activated_description">"Servizio attivato"</string>
+    <string name="pref_service_activated_on">"Servizio attivato. Sempre in esecuzione"</string>
+    <string name="pref_service_activated_off">"Servizio disattivato. Solo in esecuzione se l'applicazione è attiva"</string>
+
+    <string name="pref_battery_care">"Saver Batteria"</string>
+    <string name="pref_battery_care_description_on">"Risparmiatore batteria abilitato. Controllare Solo per frullati quando lo schermo è acceso"</string>
+    <string name="pref_battery_care_description_off">"Battery saver disabled. Always checking for shakes even when screen is OFF"</string>
+
+    <string name="pref_always_listen">"Controllare sempre per frullati"</string>
+    <string name="pref_always_listen_description">"Controllare sempre per frullati, anche quando lo schermo è spento"</string>
+
+    <string name="pref_light_auto_off">"Spegni la luce dopo"</string>
+
+    <string name="pref_vibrate">"Vibrare"</string>
+    <string name="pref_vibrate_description">"Vibrazione quando la luce proviene ON o OFF"</string>
+
+    <string name="pref_sensibility">"Sensibilità"</string>
+    <string name="pref_sensibility_description">"Regolare la sensibilità shake"</string>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_light_auto_off_titles">
+        <item>"1 minuto"</item>
+        <item>"3 minuti"</item>
+        <item>"5 minuti"</item>
+        <item>"10 minuti"</item>
+        <item>"15 minuti"</item>
+        <item>"20 minuti"</item>
+        <item>"30 minuti"</item>
+        <item>"1 ora"</item>
+        <item>"Mai"</item>
+    </string-array>
+    <string-array name="pref_light_auto_off_values">
+        <item>"1"</item>
+        <item>"3"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"0"</item>
+    </string-array>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_sensibility_titles">
+        <item>"Molto basso"</item>
+        <item>"Basso"</item>
+        <item>"Medio"</item>
+        <item>"Alto"</item>
+    </string-array>
+    <string-array name="pref_sensibility_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </string-array>
+
+    <!-- User -->
+    <string name="pref_header_user">"Configurazione"</string>
+
+    <!-- About -->
+    <string name="pref_header_about">"Su"</string>
+
+    <string name="pref_about_show">"A proposito di ..."</string>
+    <string name="pref_about_share">"Share ..."</string>
+    <string name="shakeSecondsMsg">"Scuotere il dispositivo per 2 secondi per accendere o luce spenta!"</string>
+    <string name="bannerClickHide">"Clicca per nascondere bandiera"</string>
+
+    <string name="notificationTitle">"Flashlight è ON"</string>
+    <string name="notificationText">"Agitare di nuovo o premere qui per spegnere la torcia\n\nÈ anche possibile premere il pulsante di accensione per tre volte"</string>
+
+    <!--Real banners (shakeLampBanner)
+     -->
+    <string name="banner_ad_unit_id">"ca-app-pub-8877880174338104/1751062478"</string>
+    <string name="msgBtnVote">Voto</string>
+
+
+    <!-- Test banner
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+
+
+</resources>

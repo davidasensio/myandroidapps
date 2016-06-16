@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="splash_screen_duration">300</integer>
+    <integer name="game_over_duration">1300</integer>
+    <integer name="game_count_down_start">3</integer>
+
+</resources>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">"Agiter Lampe"</string>
+
+    <string name="hello_world">"Bonjour le monde!"</string>
+    <string name="action_settings">"Paramètres"</string>
+    <string name="btnLamp">"Agiter ou appuyez"</string>
+
+    <!-- ShareApp strings -->
+    <string name="share_app_body">"! ¡Salut \n \n Essayez cette application, es vraiment utile et génial: \n \n https://play.google.com/store/apps/details?id=com.handysparksoft.shakelamp \n \nCheers!"</string>
+    <string name="share_app_subject">"Essayez cette application, ce est génial!"</string>
+    <string name="share_app_information">"Informations"</string>
+    <string name="share_app_message1">"Agiter Lampe V"</string>
+    <string name="share_app_message2">"\nan 2015 - David A \nemail: handysparksoft@gmail.com"</string>
+    <string name="shake_lamp_msg_error">"Error"</string>
+    <string name="shake_lamp_msg_not_flash_support">"Sorry, your device doesn't support flash light!"</string>
+    <string name="share_app_share">"Partager Agiter Lampe avec vos amis"</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">"Paramètres"</string>
+    <string name="pref_service_activated">"Service activé"</string>
+    <string name="pref_service_activated_description">"Service activé"</string>
+    <string name="pref_service_activated_on">"Service activé. Toujours à courir"</string>
+    <string name="pref_service_activated_off">"La fonction désactivée. Seulement courir si l'application est active"</string>
+
+    <string name="pref_battery_care">"Économiseur de batterie"</string>
+    <string name="pref_battery_care_description_on">"Économiseur de batterie activée. Seulement vérifier shakes lorsque l'écran est allumé"</string>
+    <string name="pref_battery_care_description_off">"Économiseur de batterie désactivée. Toujours vérifier les secousses, même lorsque l'écran est éteint"</string>
+
+    <string name="pref_always_listen">"Toujours vérifier les shakes"</string>
+    <string name="pref_always_listen_description">"Toujours vérifier shakes même lorsque l'écran est éteint"</string>
+
+    <string name="pref_light_auto_off">"Éteignez la lumière après"</string>
+
+    <string name="pref_vibrate">"Vibrer"</string>
+    <string name="pref_vibrate_description">"Vibrer lorsque la lumière vient ON ou OFF"</string>
+
+    <string name="pref_sensibility">"Sensibilité"</string>
+    <string name="pref_sensibility_description">"Réglez la sensibilité de bougé"</string>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_light_auto_off_titles">
+        <item>"1 minute"</item>
+        <item>"3 minutes"</item>
+        <item>"5 minutes"</item>
+        <item>"10 minutes"</item>
+        <item>"15 minutes"</item>
+        <item>"20 minutes"</item>
+        <item>"30 minutes"</item>
+        <item>"1 heure"</item>
+        <item>"Jamais"</item>
+    </string-array>
+    <string-array name="pref_light_auto_off_values">
+        <item>"1"</item>
+        <item>"3"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"0"</item>
+    </string-array>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_sensibility_titles">
+        <item>"Très bas"</item>
+        <item>"Faible"</item>
+        <item>"Moyen"</item>
+        <item>"Élevé"</item>
+    </string-array>
+    <string-array name="pref_sensibility_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </string-array>
+
+    <!-- User -->
+    <string name="pref_header_user">"Configuration"</string>
+
+    <!-- About -->
+    <string name="pref_header_about">"Sur"</string>
+
+    <string name="pref_about_show">"À propos de ..."</string>
+    <string name="pref_about_share">"Partager ..."</string>
+    <string name="shakeSecondsMsg">"Secouer l'appareil pendant 2 secondes pour allumer ou lumière éteinte!"</string>
+    <string name="bannerClickHide">"Cliquez sur pour cacher la bannière"</string>
+
+    <string name="notificationTitle">"Lampe de poche est ON"</string>
+    <string name="notificationText">"Agiter à nouveau ou cliquez ici pour éteindre la lampe de poche\n\nVous pouvez aussi appuyer sur le bouton d'alimentation à trois reprises"</string>
+
+    <!--Real banners (shakeLampBanner)
+     -->
+    <string name="banner_ad_unit_id">"ca-app-pub-8877880174338104/1751062478"</string>
+    <string name="msgBtnVote">Vote</string>
+
+
+    <!-- Test banner
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+
+
+</resources>
