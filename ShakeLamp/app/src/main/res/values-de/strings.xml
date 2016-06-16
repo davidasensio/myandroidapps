@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">"Shake-Lampe"</string>
+
+    <string name="hello_world">"Hallo Welt!"</string>
+    <string name="action_settings">"Einstellungen"</string>
+    <string name="btnLamp">"Schütteln oder drücken"</string>
+
+    <!-- ShareApp strings -->
+    <string name="share_app_body">"! ¡Hallo \n \n Versuchen Sie dieses app, Es ist wirklich nützlich und genial: \n \n https://play.google.com/store/apps/details?id=com.handysparksoft.shakelamp \n \nCheers!"</string>
+    <string name="share_app_subject">"Versuchen Sie dieses app, es ist großartig!"</string>
+    <string name="share_app_information">"Information"</string>
+    <string name="share_app_message1">"Shake-Lampe V"</string>
+    <string name="share_app_message2">"\n Year 2015 - David A \nemail: handysparksoft@gmail.com"</string>
+    <string name="shake_lamp_msg_error">"Fehler"</string>
+    <string name="shake_lamp_msg_not_flash_support">"Leider ist Ihr Gerät unterstützt keine Blitzlicht!"</string>
+    <string name="share_app_share">"Teilen schütteln Lampe mit Ihren Freunden"</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">"Einstellungen"</string>
+    <string name="pref_service_activated">"Service aktiviert"</string>
+    <string name="pref_service_activated_description">"Service aktiviert"</string>
+    <string name="pref_service_activated_on">"Service aktiviert. Grundsaetzlich"</string>
+    <string name="pref_service_activated_off">"Dienst deaktiviert. Nur zu laufen, wenn die App aktiv ist"</string>
+
+    <string name="pref_battery_care">"Batterieschutz"</string>
+    <string name="pref_battery_care_description_on">"Batteriespar aktiviert. Prüfen Nur für Shakes, wenn der Bildschirm eingeschaltet ist"</string>
+    <string name="pref_battery_care_description_off">"Batterieschutz deaktiviert. Immer Prüfung für Shakes auch bei ausgeschaltetem Bildschirm"</string>
+
+    <string name="pref_always_listen">"Immer Prüfung für Shakes"</string>
+    <string name="pref_always_listen_description">"Kontrollieren Sie immer die Erschütterungen auch bei ausgeschaltetem Bildschirm"</string>
+
+    <string name="pref_light_auto_off">"Schalten Sie Licht nach"</string>
+
+    <string name="pref_vibrate">"Vibrieren"</string>
+    <string name="pref_vibrate_description">"Vibriert, wenn Licht ein- oder ausgeschaltet wird"</string>
+
+    <string name="pref_sensibility">"Empfindlichkeit"</string>
+    <string name="pref_sensibility_description">"Stellen Sie schütteln Empfindlichkeit"</string>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_light_auto_off_titles">
+        <item>"1 minute"</item>
+        <item>"3 Minuten"</item>
+        <item>"5 minuten"</item>
+        <item>"10 Minuten"</item>
+        <item>"15 minuten"</item>
+        <item>"20 minuten"</item>
+        <item>"30 minuten"</item>
+        <item>"1 stunde"</item>
+        <item>"Nie"</item>
+    </string-array>
+    <string-array name="pref_light_auto_off_values">
+        <item>"1"</item>
+        <item>"3"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"0"</item>
+    </string-array>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_sensibility_titles">
+        <item>"Sehr niedrig"</item>
+        <item>"Niedrig"</item>
+        <item>"Medium"</item>
+        <item>"Hoch"</item>
+    </string-array>
+    <string-array name="pref_sensibility_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </string-array>
+
+    <!-- User -->
+    <string name="pref_header_user">"Konfiguration"</string>
+
+    <!-- About -->
+    <string name="pref_header_about">"Über"</string>
+
+    <string name="pref_about_show">"Über ..."</string>
+    <string name="pref_about_share">"Teilen ..."</string>
+    <string name="shakeSecondsMsg">"Schütteln Sie das Gerät 2 Sekunden lang zu beleuchten oder Licht aus!"</string>
+    <string name="bannerClickHide">"Klicken Sie auf das Banner auszublenden"</string>
+
+    <string name="notificationTitle">"Taschenlampe eingeschaltet ist"</string>
+    <string name="notificationText">"Schütteln Sie erneut oder drücken Sie hier, um das Gerät auszuschalten Taschenlampe\n\nSie können auch drei Mal den Netzschalter drücken"</string>
+
+    <!--Real banners (shakeLampBanner)
+     -->
+    <string name="banner_ad_unit_id">"ca-app-pub-8877880174338104/1751062478"</string>
+    <string name="msgBtnVote">Stimme</string>
+
+
+    <!-- Test banner
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+
+
+</resources>

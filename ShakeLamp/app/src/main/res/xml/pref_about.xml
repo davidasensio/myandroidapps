@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
+         design guidelines. -->
+    <Preference android:summary="@string/share_app_share"
+        android:title="@string/pref_about_share">
+        <intent android:action="com.handysparksoft.shakelamp.ACTION_SHARE_APP" />
+
+    </Preference>
+
+    <Preference android:title="@string/pref_about_show"  >
+
+        <intent android:action="com.handysparksoft.shakelamp.ACTION_ABOUT" />
+    </Preference>
+</PreferenceScreen>

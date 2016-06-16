@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">"Agite Lamp"</string>
+
+    <string name="hello_world">"Olá Mundo!"</string>
+    <string name="action_settings">"Definições"</string>
+    <string name="btnLamp">"Agite ou pressione"</string>
+
+    <!-- ShareApp strings -->
+    <string name="share_app_body">"! ¡Hi \n \n Tente este app, es realmente útil e genial: \n \n https://play.google.com/store/apps/details?id=com.handysparksoft.shakelamp \n \nCheers!"</string>
+    <string name="share_app_subject">"Experimente este aplicativo, é ótimo!"</string>
+    <string name="share_app_information">"Informações"</string>
+    <string name="share_app_message1">"Agite Lamp V"</string>
+    <string name="share_app_message2">"\n Ano 2015 - David A \nemail: handysparksoft@gmail.com"</string>
+    <string name="shake_lamp_msg_error">"Erro"</string>
+    <string name="shake_lamp_msg_not_flash_support">"Desculpe, seu dispositivo não suporta flash de luz!"</string>
+    <string name="share_app_share">"Compartilhar Agite Lamp com os seus amigos"</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">"Definições"</string>
+    <string name="pref_service_activated">"Serviço ativado"</string>
+    <string name="pref_service_activated_description">"Serviço ativado"</string>
+    <string name="pref_service_activated_on">"Serviço activado. Sempre a correr"</string>
+    <string name="pref_service_activated_off">"Serviço desativado. Apenas em execução se o aplicativo está ativo"</string>
+
+    <string name="pref_battery_care">"Battery Saver"</string>
+    <string name="pref_battery_care_description_on">"Economizador de bateria ativado. Apenas vá para shakes quando a tela é ON"</string>
+    <string name="pref_battery_care_description_off">"Battery Saver desativado. Sempre a verificação de shakes mesmo quando a tela está desligada"</string>
+
+    <string name="pref_always_listen">"Sempre a verificação de shakes"</string>
+    <string name="pref_always_listen_description">"Sempre verifique se há shakes mesmo quando a tela está desligada"</string>
+
+    <string name="pref_light_auto_off">"Desligue a luz depois"</string>
+
+    <string name="pref_vibrate">"Vibrar"</string>
+    <string name="pref_vibrate_description">"Vibrar quando a luz vem ON ou OFF"</string>
+
+    <string name="pref_sensibility">"Sensibilidade"</string>
+    <string name="pref_sensibility_description">"Ajuste a sensibilidade trepidação"</string>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_light_auto_off_titles">
+        <item>"1 minuto"</item>
+        <item>"3 minutos"</item>
+        <item>"5 minutos"</item>
+        <item>"10 minutos"</item>
+        <item>"15 minutos"</item>
+        <item>"20 minutos"</item>
+        <item>"30 minutos"</item>
+        <item>"1 hora"</item>
+        <item>"Nunca"</item>
+    </string-array>
+    <string-array name="pref_light_auto_off_values">
+        <item>"1"</item>
+        <item>"3"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"0"</item>
+    </string-array>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_sensibility_titles">
+        <item>"Muito baixo"</item>
+        <item>"Baixo"</item>
+        <item>"Médio"</item>
+        <item>"Alto"</item>
+    </string-array>
+    <string-array name="pref_sensibility_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </string-array>
+
+    <!-- User -->
+    <string name="pref_header_user">"Configuração"</string>
+
+    <!-- About -->
+    <string name="pref_header_about">"Sobre"</string>
+
+    <string name="pref_about_show">"Sobre ..."</string>
+    <string name="pref_about_share">"Share ..."</string>
+    <string name="shakeSecondsMsg">"Agitar o dispositivo por 2 segundos para acender ou acender off!"</string>
+    <string name="bannerClickHide">"Clique para ocultar bandeira"</string>
+
+    <string name="notificationTitle">"Flashlight é ON"</string>
+    <string name="notificationText">"Agite novamente ou pressione aqui para desligar a lanterna\n\nVocê também pode pressionar o botão de energia três vezes"</string>
+
+    <!--Real banners (shakeLampBanner)
+     -->
+    <string name="banner_ad_unit_id">"ca-app-pub-8877880174338104/1751062478"</string>
+    <string name="msgBtnVote">Voto</string>
+
+
+    <!-- Test banner
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+
+
+</resources>

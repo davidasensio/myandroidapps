@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">"摇灯"</string>
+
+    <string name="hello_world">"你好世界！"</string>
+    <string name="action_settings">"设置"</string>
+    <string name="btnLamp">"震动或按"</string>
+
+    <!-- ShareApp strings -->
+    <string name="share_app_body">"！¡嗨\ñ\ñ试试这个应用程序，ES真正有用和亲切：\ñ\ñhttps://play.google.com/store/apps/details?id=com.handysparksoft.shakelamp \ñ\nCheers！"</string>
+    <string name="share_app_subject">"试试这个应用程序，这是伟大的！"</string>
+    <string name="share_app_information">"信息"</string>
+    <string name="share_app_message1">"摇灯V"</string>
+    <string name="share_app_message2">"\nYear 2015年 - 大卫·A \nemail：handysparksoft@gmail.com"</string>
+    <string name="shake_lamp_msg_error">"错误"</string>
+    <string name="shake_lamp_msg_not_flash_support">"对不起，您的设备不支持闪光灯！"</string>
+    <string name="share_app_share">"分享摇灯与您的朋友"</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">"设置"</string>
+    <string name="pref_service_activated">"服务启动"</string>
+    <string name="pref_service_activated_description">"服务启动"</string>
+    <string name="pref_service_activated_on">"服务激活。始终运行"</string>
+    <string name="pref_service_activated_off">"服务停用。只有在运行，如果应用程序被激活"</string>
+
+    <string name="pref_battery_care">"电池省电"</string>
+    <string name="pref_battery_care_description_on">"电池省电功能。仅检查甩头的时候屏幕会"</string>
+    <string name="pref_battery_care_description_off">"电池保护程序禁用。总是检查甩头，即使屏幕关闭"</string>
+
+    <string name="pref_always_listen">"总是检查奶昔"</string>
+    <string name="pref_always_listen_description">"务必检查甩头，即使屏幕关闭"</string>
+
+    <string name="pref_light_auto_off">"关闭后的光"</string>
+
+    <string name="pref_vibrate">"颤动"</string>
+    <string name="pref_vibrate_description">"振动时灯亮ON或OFF"</string>
+
+    <string name="pref_sensibility">"灵敏度"</string>
+    <string name="pref_sensibility_description">"调整抖动敏感性"</string>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_light_auto_off_titles">
+        <item>"1分钟"</item>
+        <item>"3分钟"</item>
+        <item>"5分钟"</item>
+        <item>"10分钟"</item>
+        <item>"15分钟"</item>
+        <item>"20分钟"</item>
+        <item>"30分钟"</item>
+        <item>"1小时"</item>
+        <item>"从来没有"</item>
+    </string-array>
+    <string-array name="pref_light_auto_off_values">
+        <item>"1"</item>
+        <item>"3"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"0"</item>
+    </string-array>
+
+    <!-- List titles/values  light_auto_off -->
+    <string-array name="pref_sensibility_titles">
+        <item>"非常低"</item>
+        <item>"低"</item>
+        <item>"中"</item>
+        <item>"高"</item>
+    </string-array>
+    <string-array name="pref_sensibility_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </string-array>
+
+    <!-- User -->
+    <string name="pref_header_user">"组态"</string>
+
+    <!-- About -->
+    <string name="pref_header_about">"大约"</string>
+
+    <string name="pref_about_show">"关于..."</string>
+    <string name="pref_about_share">"分享..."</string>
+    <string name="shakeSecondsMsg">"振动设备2秒点亮或灯灭！"</string>
+    <string name="bannerClickHide">"点击隐藏的旗帜"</string>
+
+    <string name="notificationTitle">"手电筒为ON"</string>
+    <string name="notificationText">"Shake again or press here to turn off the flashlight\n\n您也可以按電源按鈕三次"</string>
+
+    <!--Real banners (shakeLampBanner)
+     -->
+    <string name="banner_ad_unit_id">"ca-app-pub-8877880174338104/1751062478"</string>
+    <string name="msgBtnVote">投票</string>
+
+
+    <!-- Test banner
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+
+
+</resources>
